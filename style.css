@@ -1,0 +1,212 @@
+*{margin:0; padding:0;}
+html{font-size:62.5%;}
+body{font-size: 1.5rem;}
+label{
+	/*font-family: "Courier New", monospace;*/
+  font-size:1.9rem;
+  margin: 2rem;
+}
+header{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #fcf879;
+	border-radius: 15px;
+  margin: 2rem; 
+  padding: 2rem;
+}
+h1, h2, h3, h4, h5, h6{font-family: Roboto, sans-serif;
+	color:#ae62f0;
+
+}
+p{font-size: 1.7rem;}
+h1{
+	color:#ae62f0;
+	text-decoration: underline;
+	margin:50px;
+	font-size:65px;
+
+}
+h3{font-size:1.3rem;}
+img{max-width:100%; display:block;}
+.nav{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+}
+.bar{
+	margin:auto;
+	width:90%;
+	border-radius:15px;
+	padding:20px;
+	background-color:#7cbcf7;
+  margin: 2rem;
+}
+.words{
+	font-family: "Courier New", monospace;
+}
+select{margin: 1rem;}
+input[type=text]{font-size:1.4rem;}
+input[type=submit],.btn{
+	display:inline-block;
+	border-radius:15px;
+	background-color:#ae62f0;
+	border:20px;
+	padding:10px;
+	margin:20px;
+	text-align:center;
+	color: #FFFFFF;
+	text-decoration: none;
+  font-size:1.9rem;
+}
+input[type=submit]:hover,.btn:hover{cursor:pointer;}
+input[type="checkbox"] {  height: 1.25em;
+  width: 1.25em;
+  vertical-align: middle;
+  font-size:1.6em;
+}
+.generator{
+	background-color:#7cbcf7;
+	margin:75px;
+	border-radius:15px;
+	padding:10px;
+}
+/*
+ .slider{
+	display:flex;
+	background-color:#fcf789;
+	margin:75px;
+	padding:10px;
+	border-radius:15px;
+}
+*/
+.logo{
+	border-color: #7cbcf7;
+	border-style: solid;
+	margin:15px;
+	border-radius:15px;
+	padding:10px;
+}
+main{	background-color: #fcf879;
+	border-radius: 15px;
+	margin: 2rem;
+  padding:2rem;}
+.main{
+	display: grid;
+	grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+	background-color: #fcf879;
+	border-radius: 15px;
+	margin: 2rem;
+  padding:2rem;
+
+}
+.formsignup{
+	display: grid;
+	grid-template-columns: auto;
+
+}
+.gridform{display:grid; grid-template-columns:1fr 2fr;  margin:1.5rem; border-radius: 15px; border-style: solid; background-color:#7cbcf7; padding: 0 10rem;}
+.gridform_four{display:grid; grid-template-columns:auto auto auto auto; max-width:400px; margin:20px;}
+.tworow{grid-column:1/3;}
+.threerow{grid-column:3/5;}
+.fourrow{grid-column:1:5;}
+input{margin:10px;}
+#resultTable{
+  /*display:none;*/
+	background-color:#fcf879;
+	border-color:#7cbcf7;
+	border-style:solid;
+	border-radius: 15px;
+  font-size:1.7rem;
+  margin:1.5rem;
+  padding: 0 10rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-row-gap: 2rem;
+}
+.header{font-weight:bold; background-color:#fdfbbd; padding: 1rem;text-align:center; border: 2px solid #FCF879;}
+tr{border-left:1px, solid, #7cbcf7;}
+.center{text-align:center;}
+.bold{font-weight:bold;}
+.viewTable{max-width:600px;
+  padding:5px;
+}
+.viewTable tr:nth-child(odd){background-color:#ece3f9;}
+.viewTable th{background-color:#A16AE9; color:#ffffff; border-radius:15px; padding:10px;}
+#make-item{display:none;}
+table{
+	border: 10px, solid, #7cbcf7;
+
+}
+#workout{display:block; margin: 1.5rem; padding: 1.5rem;}
+.countButton{display:none;}
+.workout-display{
+	display: grid;
+	grid-template-columns: auto auto;
+	column-gap: 10px;
+
+
+}
+.ex_info{display:grid; grid-template-rows:auto auto auto; }
+.desc{grid-column:1/3;margin-top:1.5rem;}
+.material-icons{
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px!important;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  color:#ffffff;
+  text-decoration:none;
+  display:grid!important;
+  align-content:center;
+}
+#workoutbox{
+  display:grid;
+  grid-template-columns: 10rem auto 10rem;
+  margin:1.5rem auto;
+  background-color:#7cbcf7;
+  max-width:80rem;
+  padding:1.5rem;
+  min-height:300px;
+  justify-content:space-around;
+  align-content:center;
+	border-radius: 1.5rem;
+	border-style: solid;
+	border-color: #000000;
+  grid-column-gap: 1.5rem;
+  font-size: 1.8rem;
+}
+#save_workout{margin: 1.5rem; padding: 1.5rem;
+	background-color: #fcf879;
+	border-radius: 15px;
+	margin: 2rem;
+  padding:2rem;
+}
+#save_workout_btn, #save_workout{display:none;
+}
+
+/* Workout Log Table Display */
+.log_table{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin: 2rem;
+  justify-content: space-evenly;
+}
+.headrow{
+	background-color:#7cbcf7;
+	color: #ffffff;
+	font-weight: bold;
+	margin: .1rem;
+	padding: .5rem;
+	text-align: center;
+}
+#notes, #rating{
+	background-color:#ae62f0;
+
+}
